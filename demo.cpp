@@ -15,5 +15,6 @@
 #include <iostream>
 
 int main () {
-  std::cout << absVal(5);
+  std::cout << "Hello world";
+  return 0;
 }

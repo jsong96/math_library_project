@@ -15,13 +15,15 @@
 
 int absVal(int num);
 
-double absVal(double num);
-
 long absVal(long num);
+
+double absVal(double num);
 
 long ceiling (double num);
 
 long floor (double num);
+
+long round(double num);
 
 double pow (double num1, long num2);
 
