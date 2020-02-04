@@ -15,6 +15,6 @@
 #include <iostream>
 
 int main () {
-  std::cout << "Hello world";
+  std::cout << absVal(8);
   return 0;
 }
