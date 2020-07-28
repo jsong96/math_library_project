@@ -1,13 +1,17 @@
-CXX=g++
-CXXFLAGS=-Wall
+
+
+CXX = g++
+CXXFLAGS = -Wall
 
 all: build
 
-Mathlib.o: Mathlib.h
+MathLib.o: MathLib.h
+
 
 clean:
-	-rm Mathlib.o
-	-rm Mathlib
+	-rm MathLib.o
+	-rm MathLib
 
-build: demo.cpp Mathlib.o
-	$(CXX) $(CXXFLAGS) -o Mathlib demo.cpp Mathlib.o
+
+build: demo.cpp MathLib.o
+	$(CXX) $(CXXFLAGS) -o MathLib demo.cpp MathLib.o
